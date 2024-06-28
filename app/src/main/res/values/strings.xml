@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="request_timeout">请求超时</string>
+    <string name="payload_too_large">负载过大</string>
+    <string name="no_internet">没有网络</string>
+    <string name="server_error">服务器异常</string>
+    <string name="unknown">未知错误</string>
+    <string name="no_permission">没有权限</string>
+    <string name="disk_full">磁盘已满</string>
+    <string name="too_many_requests">请求过多</string>
+    <string name="unauthorized">未经身份验证</string>
+    <string name="too_short">密码太短了</string>
+    <string name="no_digit">密码没有数字</string>
+    <string name="NO_UPP">密码没有大写字母</string>
+</resources>
