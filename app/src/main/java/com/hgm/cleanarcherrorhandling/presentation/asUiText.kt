@@ -1,9 +1,9 @@
 package com.hgm.cleanarcherrorhandling.presentation
 
 import com.hgm.cleanarcherrorhandling.R
-import com.hgm.cleanarcherrorhandling.domain.DataError
+import com.hgm.cleanarcherrorhandling.domain.util.DataError
 import com.hgm.cleanarcherrorhandling.domain.DataValidator
-import com.hgm.cleanarcherrorhandling.domain.Result
+import com.hgm.cleanarcherrorhandling.domain.util.Result
 
 /**
  * @author：HGM

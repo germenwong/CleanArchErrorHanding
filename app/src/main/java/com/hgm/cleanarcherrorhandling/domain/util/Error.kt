@@ -1,4 +1,4 @@
-package com.hgm.cleanarcherrorhandling.domain
+package com.hgm.cleanarcherrorhandling.domain.util
 
 
 

@@ -1,11 +1,10 @@
 package com.hgm.cleanarcherrorhandling.presentation
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.hgm.cleanarcherrorhandling.domain.AuthRepository
 import com.hgm.cleanarcherrorhandling.domain.DataValidator
-import com.hgm.cleanarcherrorhandling.domain.Result
+import com.hgm.cleanarcherrorhandling.domain.util.Result
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow

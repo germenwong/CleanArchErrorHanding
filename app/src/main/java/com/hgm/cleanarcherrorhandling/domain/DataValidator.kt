@@ -1,5 +1,8 @@
 package com.hgm.cleanarcherrorhandling.domain
 
+import com.hgm.cleanarcherrorhandling.domain.util.Error
+import com.hgm.cleanarcherrorhandling.domain.util.Result
+
 /**
  * @author：HGM
  * @created：2024/3/17 0017

@@ -1,6 +1,8 @@
 package com.hgm.cleanarcherrorhandling.domain
 
 import com.hgm.cleanarcherrorhandling.data.dto.RegisterResponse
+import com.hgm.cleanarcherrorhandling.domain.util.DataError
+import com.hgm.cleanarcherrorhandling.domain.util.Result
 
 /**
  * @author：HGM

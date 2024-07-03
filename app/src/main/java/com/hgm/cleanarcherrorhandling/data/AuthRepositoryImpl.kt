@@ -3,8 +3,8 @@ package com.hgm.cleanarcherrorhandling.data
 import com.hgm.cleanarcherrorhandling.data.dto.RegisterQuest
 import com.hgm.cleanarcherrorhandling.data.dto.RegisterResponse
 import com.hgm.cleanarcherrorhandling.domain.AuthRepository
-import com.hgm.cleanarcherrorhandling.domain.DataError
-import com.hgm.cleanarcherrorhandling.domain.Result
+import com.hgm.cleanarcherrorhandling.domain.util.DataError
+import com.hgm.cleanarcherrorhandling.domain.util.Result
 import retrofit2.HttpException
 import java.io.IOException
 import java.net.SocketTimeoutException

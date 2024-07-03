@@ -1,4 +1,4 @@
-package com.hgm.cleanarcherrorhandling.domain
+package com.hgm.cleanarcherrorhandling.domain.util
 
 /**
  * @author：HGM
@@ -6,7 +6,7 @@ package com.hgm.cleanarcherrorhandling.domain
  * @description：
  **/
 sealed interface DataError : Error {
-      enum class NetworkError:DataError {
+      enum class NetworkError: DataError {
             REQUEST_TIMEOUT,
             PAYLOAD_TOO_LARGE,
             NO_INTERNET,
@@ -16,7 +16,7 @@ sealed interface DataError : Error {
             UNAUTHORIZED
       }
 
-      enum class LocalError:DataError {
+      enum class LocalError: DataError {
             NO_PERMISSION,
             DISK_FULL
       }

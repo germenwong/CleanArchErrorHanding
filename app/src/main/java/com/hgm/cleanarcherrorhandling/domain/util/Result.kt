@@ -1,4 +1,4 @@
-package com.hgm.cleanarcherrorhandling.domain
+package com.hgm.cleanarcherrorhandling.domain.util
 
 
 // 接收任何类型的数据和错误信息
