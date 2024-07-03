@@ -24,7 +24,7 @@ fun DataError.asUiText(): UiText {
       }
 }
 
-fun Result.Error<*, DataError>.asErrorUiText(): UiText {
+fun Result.Error<DataError>.asErrorUiText(): UiText {
       return message.asUiText()
 }
 

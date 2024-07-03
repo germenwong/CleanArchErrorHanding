@@ -15,4 +15,3 @@ interface AuthRepository {
             password: String
       ): Result<RegisterResponse, DataError.NetworkError>
 }
-
